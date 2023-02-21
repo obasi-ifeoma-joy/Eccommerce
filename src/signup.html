@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eccommerce Website</title>
+    <link rel="stylesheet" href="/Eccommerce-Website/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <section id="header">
+        <a href="index.html" class="logo"><span> E-</span>SHOP</a>
+
+          <div>
+                
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="signup.html">SignUp</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+                <div id="count-items">0</div>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+
+          </div>
+            
+        <div id="mobile">
+            <div id="count-items">0</div>
+            <a href="cart.html"><i  class="fa-solid fa-cart-plus"></i></a> 
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+      <div id="signup-form">
+       
+        <form>
+            <h2>Create An Account</h2>
+
+            <label for="First Name">First Name</label>
+            <input type="text" id="First Name" placeholder="Enter First Name">
+
+            <label for="Last Name">Last Name</label>
+            <input type="text" id="Last Name" placeholder="Enter Last Name">
+
+            <label for="Email Address">Email Address</label>
+            <input type="email" id="Email Address" placeholder="Enter Email Address">
+
+            <label for="Email Address">Phone Number</label>
+            <input type="text" id="Phone Number" placeholder="Enter Phone Number">
+             
+            <label for="Password">Password</label>
+            <input type="password" id="Password" placeholder="Enter Password">
+             
+             <button type="submit">Create an Account</button>
+
+        </form>
+
+        <p>By signing up you accept our <a href="#">terms and conditions & privacy policy</a></p>
+
+        <div class="login">
+            <p>Already have an Account?</p>
+
+            <button type="submit">Login</button>
+        </div>
+   
+    </div>
+
+   <script src="/Eccommerce-Website/src/data.js"></script>
+   <script src="/Eccommerce-Website/src/script.js"></script>
+</body>
+</html>
